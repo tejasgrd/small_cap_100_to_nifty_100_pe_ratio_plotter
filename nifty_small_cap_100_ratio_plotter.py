@@ -79,8 +79,13 @@ plt.gcf().autofmt_xdate()
 plt.xlabel('Date')
 plt.ylabel('P/E Ratio')
 
+
 # Add a title to the graph
 plt.title(f'Ratio of {company_name_1.capitalize()} P/E to {company_name_2.capitalize()} P/E Over {days} Days')
+
+#Grid graph
+plt.grid()
+plt.grid(True, 'minor', color='#ddddee') # use a lighter color
 
 # Show the graph
 plt.show()
