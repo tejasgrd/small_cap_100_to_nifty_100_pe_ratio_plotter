@@ -1,6 +1,3 @@
-Here’s the updated `README.md` file for the provided script:
-
-```markdown
 # P/E Ratio Plotting Script for Small Cap 100 and Nifty 100
 
 This Python script fetches and plots the ratio of P/E (Price to Earnings) values between two stock indices: `Small Cap 100` and `Nifty 100`, over a specified number of days. The data is fetched from the `screener.in` API, and the results are visualized using `matplotlib`.
